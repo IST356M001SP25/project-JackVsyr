@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+For my final project I developed a Streamlit application that visualizes aircraft listings across the US by mapping them based on their state. Each state that has listings has by a point labeled with the number of aircraft available, and you can view detailed listings by selecting a state. my original plan was to allow users to click directly on the map to view listings but I found a technical limitation in Streamlit’s pydeck_chart function, so I couldn't do my full idea of clicking on the map directly. I adapted by combining adding a dropdown menu to select the state. This project helped me get more hands on experience and practice with data processing, geographic visualization, and especially working around limitations.
